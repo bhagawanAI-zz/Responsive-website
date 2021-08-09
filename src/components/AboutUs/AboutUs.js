@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from "react-scroll-to-top";
 
 const aboutUs = () => {
 	return (
@@ -20,6 +21,10 @@ const aboutUs = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <ScrollToTop smooth/>
             </div>
         </section>
 	);
