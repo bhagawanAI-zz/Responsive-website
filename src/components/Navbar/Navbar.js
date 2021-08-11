@@ -24,11 +24,11 @@ const navbar = () => {
                                 <li className="nav-item"><a className="nav-link" href="#Pricing">Pricing</a></li>
                             </ul>
 
-                            <ul className="navbar-right mb-0">
+                            {/*<ul className="navbar-right mb-0">
                                 <li className="nav-item">
                                     <button className="button button-header bg">Sign up</button>
                                 </li>
-                            </ul>
+                            </ul>*/}
                         </div>
                     </div>
                 </nav>
