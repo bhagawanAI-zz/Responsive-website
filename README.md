@@ -1,4 +1,3 @@
-# Responsive-website
 # Smarttrak | AI Responsive Web App
 
 Clone URL https://github.com/bhagawanAI/Responsive-website.git
