@@ -3,22 +3,27 @@ import ScrollToTop from "react-scroll-to-top";
 
 const aboutUs = () => {
 	return (
-        <section className="section-padding--small w-100 bg-magnolia">
-            <div className="container">
-                <div className="row no-gutters align-items-center">
-                    <div className="col-md-5 mb-5 mb-md-0">
-                        <div className="about__content">
-                            <h2>Leading the Digital Entertainment Revolution</h2>
-                            <p>As IoT networks proliferate throughout every major industry vertical, there will
-                                be an increasingly large amount of unstructured machine data. The growing
-                                amount of human-oriented and machine generated data will drive substantial
-                                opportunities for AI support of unstructured data analytics solutions.</p>
-                            {/*<a className="button button-light" href="#">Know More</a>*/}
+        <section>
+            <div className="hero-banner w-100 mb-30px hero-block">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="">
+                                <img className="img-fluid w-100" src="images/home/about-ai.png" alt=""/>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-md-7">
-                        <div className="about__img">
-                            <img className="img-fluid" src="images/home/about.png" alt=""/>
+                        <div className="col-lg-8 pt-5">
+                            <div className="hero-banner__content">
+                                <div className="text">
+                                    <span
+                                        className="text-white-50 border-b-2 border-indigo-600 uppercase">about us</span>
+                                    <h2 className="font-bold text-3xl my-4 sm:text-4xl text-white">About <span
+                                        className="text-white font-bold">Our Company</span></h2>
+                                    <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aliquid, commodi doloremque, fugiat illum magni minus nisi nulla numquam
+                                        obcaecati placeat quia, repellat tempore voluptatum.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
