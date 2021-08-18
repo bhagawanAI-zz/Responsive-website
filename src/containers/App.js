@@ -6,7 +6,6 @@ import HeroBlock from "../components/HeroBlock/HeroBlock";
 import FeatureBlock from "../components/FeatureBlock/FeatureBlock";
 import OfferBlock from "../components/OfferBlock/OfferBlock";
 import SolutionBlock from "../components/SolutionBlock/SolutionBlock";
-import Pricing from "../components/Pricing/Pricing";
 import Clients from "../components/Clients/Clients";
 import Carousel from "../components/Carousel/Carousel";
 import AboutUs from "../components/AboutUs/AboutUs";
@@ -25,7 +24,6 @@ const App = () => {
                     <AboutUs />
                     <OfferBlock />
                     <SolutionBlock />
-                    <Pricing />
                     <Clients />
                     <Carousel />
                     <Footer />
