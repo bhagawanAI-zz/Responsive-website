@@ -186,6 +186,12 @@ h3,
     margin-right: 30px;
 }
 
+.header_area .navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 .header_area .navbar-social {
     min-width: 95px;
     float: right;
