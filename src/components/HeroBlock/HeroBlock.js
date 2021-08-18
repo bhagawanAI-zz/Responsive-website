@@ -12,10 +12,10 @@ const heroblock = () => {
                     </div>
                     <div className="col-lg-5 pt-5">
                         <div className="hero-banner__content">
-                            <h1>Advanced software made simple</h1>
-                            <p>Vel aliquam quis, nulla pede mi commodo tristique nam hac Luctun torquent velit felis
-                                commodo pellentesque nulla cras vel aliqua quisan nulla pede mi commoda</p>
-                            <a className="button bg" href="#">Get Started</a>
+                            <h1>Artificial Intelligence of Things</h1>
+                            <p>Smarttrak AI is a AIOT company providing solutions to industry verticals, inferencing Deep
+                                Learning Models on Edge based Internet Of Things Devices.</p>
+                            <a className="button bg" href="#">Know More</a>
                         </div>
                     </div>
                 </div>

@@ -9,10 +9,11 @@ const aboutUs = () => {
                     <div className="col-md-5 mb-5 mb-md-0">
                         <div className="about__content">
                             <h2>Leading the Digital Entertainment Revolution</h2>
-                            <p>Molestie lorem est faucibus Faucibus erat phasellus placerat proinint aptent pulvinar
-                                fusce nostra porta sem platea nec, donec fusce erat Molestie lorem est faucibus faucibus
-                                erat phasellus placerat proin aptent pulvinar fusce nostra port</p>
-                            <a className="button button-light" href="#">Know More</a>
+                            <p>As IoT networks proliferate throughout every major industry vertical, there will
+                                be an increasingly large amount of unstructured machine data. The growing
+                                amount of human-oriented and machine generated data will drive substantial
+                                opportunities for AI support of unstructured data analytics solutions.</p>
+                            {/*<a className="button button-light" href="#">Know More</a>*/}
                         </div>
                     </div>
                     <div className="col-md-7">

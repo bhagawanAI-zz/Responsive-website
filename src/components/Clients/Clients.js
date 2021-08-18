@@ -5,9 +5,8 @@ const solutionBlock = () => {
         <section className="section-padding bg-magnolia w-100">
             <div className="container">
                 <div className="section-intro pb-5 text-center">
-                    <h2 className="section-intro__title">Client Says Me</h2>
-                    <p className="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac.
-                        Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam </p>
+                    <h2 className="section-intro__title">Our Clients</h2>
+                    <p className="section-intro__subtitle">Your Passion is our Satisfaction. Best Service, Right Time, Right People. Definitely, We can Serve you better. Service is Everywhere. Service Truly Different.</p>
                 </div>
 
                 <div className="owl-carousel owl-theme testimonial">
