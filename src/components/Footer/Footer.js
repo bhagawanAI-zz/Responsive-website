@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
 	return (
@@ -8,30 +9,47 @@ const Footer = () => {
                     <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li>
+                                <Link to='/aboutus'>
+                                    About Us
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to='/t&c'>
+                                    Terms of Service
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to='/faq'>
+                                    FAQ
+                                </Link>
+                            </li>
                         </ul>
                     </div>
-
-                    {/*<div className="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Brand Assets</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                        </ul>
-                    </div>*/}
 
                     <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
                         <h4>Features</h4>
                         <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Career</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Terms of Service</a></li>
+                            <li>
+                                <Link to='/services'>
+                                    Services
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to='/contact'>
+                                    Contact Us
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to='/career'>
+                                    Career
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to='/investor'>
+                                    Investor Relations
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
@@ -66,7 +84,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-bottom row align-items-center text-center text-lg-left">
                     <p className="footer-text m-0 col-lg-8 col-md-12">
-                        Copyright &copy;
+                        Copyright &copy; 2021
                         All rights reserved by <a href="#" target="_blank">Smarttrak</a>
                     </p>
                     <div className="col-lg-4 col-md-12 text-center text-lg-right footer-social">
