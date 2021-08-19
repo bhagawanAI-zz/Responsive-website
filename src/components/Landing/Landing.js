@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollToTop from "react-scroll-to-top";
+import {Link} from "react-router-dom";
 
 const Landing = () => {
 	return (
@@ -17,7 +18,9 @@ const Landing = () => {
                                 <h1>Artificial Intelligence of Things</h1>
                                 <p>Smarttrak AI is a AIOT company providing solutions to industry verticals, inferencing Deep
                                     Learning Models on Edge based Internet Of Things Devices.</p>
-                                <a className="button bg" href="#">Know More</a>
+                                <Link to='/aboutus' className="button bg">
+                                    Know More
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -167,7 +170,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="section-padding--small bg-magnolia w-100 aboutus-block">
+            <div className="section-padding--small bg-white w-100 aboutus-block">
                 <div className="container">
                     <div className="row no-gutters align-items-center">
                         <div className="col-md-5 mb-5 mb-md-0">
