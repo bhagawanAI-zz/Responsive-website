@@ -14,9 +14,8 @@ const contactUs = () => {
                                         Venkatadri IT Park, HP Avenue,
                                         Konnappana, Electronic city, Bengaluru, Karnataka 560069</small>
                                     </h5>
-                                    <h5>Email: <small className="text-muted">hire@luxurytaxicab.com</small></h5>
-                                    <h5>Contact: <small className="text-muted">+91 98765 10278 || +91 76589
-                                        14244</small></h5>
+                                    <h5>Email: <small className="text-muted">hr@smarttrak.co</small></h5>
+                                    <h5>Contact: <small className="text-muted">+91 98765 10278 || +91 76589 14244</small></h5>
                                     <div className="text-center">
                                         <img className="img-fluid w-100 contact-image"
                                              src="https://csds.qld.edu.au/sdc/resources/images/find-us-map.jpg"

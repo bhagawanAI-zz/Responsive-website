@@ -14,15 +14,13 @@ const aboutUs = () => {
                         </div>
                         <div className="col-lg-8 pt-5">
                             <div className="hero-banner__content">
-                                <div className="text">
-                                    <span
-                                        className="text-white-50 border-b-2 border-indigo-600 uppercase">about us</span>
-                                    <h2 className="font-bold text-3xl my-4 sm:text-4xl text-white">About <span
-                                        className="text-white font-bold">Our Company</span></h2>
-                                    <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aliquid, commodi doloremque, fugiat illum magni minus nisi nulla numquam
-                                        obcaecati placeat quia, repellat tempore voluptatum.</p>
-                                </div>
+                                <h2 className="font-weight-bold text-3xl my-4 sm:text-4xl text-white">About <span
+                                    className="text-white font-weight-bold">Our Company</span></h2>
+                                <p className="text-white mb-4">Smarttrak AI is a AIOT company providing solutions to
+                                    industry verticals, inferencing Deep Learning Models on Edge based Internet Of Things Devices.</p>
+
+                                <p className="text-white">These solutions will focus primarily upon optimizing system and network
+                                    operations as well as extracting value from industry data through dramatically improved analytics and decision-making processes.</p>
                             </div>
                         </div>
                     </div>
