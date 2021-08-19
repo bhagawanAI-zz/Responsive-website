@@ -21,10 +21,10 @@ const navbar = () => {
 
                         <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul className="nav navbar-nav menu_nav justify-content-end">
-                                <li className="nav-item active">
-                                    <a href='/' className="nav-link">
+                                <li className="nav-item">
+                                    <Link className="nav-link" to='/'>
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to='/services'>
