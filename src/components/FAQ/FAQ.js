@@ -3,7 +3,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 const faq = () => {
 	return (
-        <section>
+        <section id="faq">
             <div className="hero-banner w-100 mb-30px hero-block">
                 <div className="container">
                     <div className="row">

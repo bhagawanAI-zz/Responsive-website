@@ -192,7 +192,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="section-padding bg-magnolia w-100 client-block">
+            <div className="py-5 my-3 bg-magnolia w-100 client-block">
                 <div className="container">
                     <div className="section-intro pb-5 text-center">
                         <h2 className="section-intro__title">Our Clients</h2>
@@ -243,7 +243,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="clients_logo_area section-padding w-100 carousel-block">
+            <div className="clients_logo_area py-5 w-100 carousel-block">
                 <div className="container">
                     <div className="clients_slider owl-carousel">
                         <div className="item">

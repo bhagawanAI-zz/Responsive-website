@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
     color: #797979;
@@ -2612,7 +2611,7 @@ h3,
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://images.unsplash.com/photo-1467241850596-6a0de48568da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80') left center no-repeat;
+    background: url('../images/banner/bg.jpg') left center no-repeat;
     background-size: cover;
     z-index: -1;
 }
@@ -2672,10 +2671,11 @@ h3,
     margin-bottom: 20px;
 }
 .accordion .card h2 {
-    background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
+    background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 0px) center;
     background-size: 20px;
     cursor: pointer;
     font-size: 18px;
+    font-weight: bold;
 }
 .accordion .card h2.collapsed {
     background-image: url(https://cdn0.iconfinder.com/data/icons/arrows-android-l-lollipop-icon-pack/24/expand2-256.png);
@@ -2683,4 +2683,15 @@ h3,
 .accordion .card-body {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
+}
+.accordion .card-body ul{
+    padding-left: 1rem;
+}
+.accordion .card-body ul li{
+    list-style-type: circle;
+}
+
+.tnc ul li{
+    margin-bottom: 1rem;
 }
