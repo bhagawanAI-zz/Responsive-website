@@ -59,7 +59,7 @@ const termsandcondition = () => {
                                </li>
 
                                <li>
-                                   <p className="mb-2 font-weight-bold">Option 2: [The Site is intended for users who are at least 13 years of age.] All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Site. If you are a minor, you must have your parent or guardian read and agree to these Terms and Conditions prior to you using the Site.</p>
+                                   <p className="mb-2 font-weight-bold">Option 2: The Site is intended for users who are at least 13 years of age.] All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Site. If you are a minor, you must have your parent or guardian read and agree to these Terms and Conditions prior to you using the Site.</p>
                                </li>
 
                            </ul>
