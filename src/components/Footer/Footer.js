@@ -88,10 +88,10 @@ const Footer = () => {
                         All rights reserved by <a href="#" target="_blank">Smarttrak</a>
                     </p>
                     <div className="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                        <a href="#"><i className="mdi mdi-facebook"/></a>
-                        <a href="#"><i className="mdi mdi-twitter"/></a>
-                        <a href="#"><i className="mdi mdi-instagram"/></a>
-                        <a href="#"><i className="mdi mdi-youtube"/></a>
+                        <a href="https://www.facebook.com/SmarttrakSolarSystems/" target="_blank"><i className="mdi mdi-facebook"/></a>
+                        <a href="https://in.linkedin.com/company/smarttrak-solar-systems-private-limited" target="_blank"><i className="mdi mdi-linkedin"/></a>
+                        {/*<a href="#"><i className="mdi mdi-instagram"/></a>*/}
+                        <a href="https://www.youtube.com/watch?v=FIuYm_XX53w" target="_blank"><i className="mdi mdi-youtube"/></a>
                     </div>
                 </div>
             </div>
