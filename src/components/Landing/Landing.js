@@ -185,7 +185,7 @@ const Landing = () => {
                         </div>
                         <div className="col-md-7">
                             <div className="about__img">
-                                <img className="img-fluid" src="images/home/about.png" alt=""/>
+                                <img className="img-fluid" src="images/home/digital.png" alt=""/>
                             </div>
                         </div>
                     </div>
