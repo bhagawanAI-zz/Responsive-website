@@ -7,12 +7,12 @@ const faq = () => {
             <div className="hero-banner w-100 mb-30px hero-block">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7">
+                        <div className="col-lg-6">
                             <div className="hero-banner__img">
-                                <img className="img-fluid" src="images/banner/hero-banner.png" alt=""/>
+                                <img className="img-fluid" src="images/home/faq.png" alt=""/>
                             </div>
                         </div>
-                        <div className="col-lg-5 pt-5">
+                        <div className="col-lg-6 pt-5">
                             <div className="hero-banner__content">
                                 <h1>Everything you need to know about AI</h1>
                                 <p>Everything you need to know about AI can be found here—why AI is important,

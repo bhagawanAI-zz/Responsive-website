@@ -2907,3 +2907,7 @@ h3,
     width: 100%;
     height: 400px;
 }
+#faq .hero-banner__img img{
+    position: relative;
+    left: 0;
+}
