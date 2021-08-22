@@ -10,6 +10,9 @@ const contactUs = () => {
                         <div className="col-lg-7 py-4 bg-light shadow-sm rounded">
                             <div className="hero-banner__content">
                                 <div className="col-12">
+                                    <h5 className="font-weight-bold">
+                                        SmartTrak Solar Systems
+                                    </h5>
                                     <h5>Address: <small className="text-muted">
                                         H.No.1-90/2/10/E, Ground Floor, Cyberabad, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081</small>
                                     </h5>
