@@ -2903,3 +2903,7 @@ h3,
     padding: 3px 7px;
     border-radius: 30px;
 }
+.smarttrak-map{
+    width: 100%;
+    height: 400px;
+}
