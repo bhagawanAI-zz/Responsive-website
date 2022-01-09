@@ -192,7 +192,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="py-5 my-3 bg-magnolia w-100 client-block">
+            {/*<div className="py-5 my-3 bg-magnolia w-100 client-block">
                 <div className="container">
                     <div className="section-intro pb-5 text-center">
                         <h2 className="section-intro__title">Our Clients</h2>
@@ -263,7 +263,7 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>*/}
 
             <div>
                 <ScrollToTop smooth/>
