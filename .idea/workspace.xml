@@ -67,6 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -119,7 +120,7 @@
       <workItem from="1632900762243" duration="550000" />
       <workItem from="1632995293721" duration="1874000" />
       <workItem from="1634616448362" duration="12000" />
-      <workItem from="1641699153578" duration="286000" />
+      <workItem from="1641699153578" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="SmartTrak UI">
       <created>1628501739959</created>
@@ -155,18 +156,34 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_PATCH_IN_EXPLORER" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="SmartTrak UI" />
     <MESSAGE value="Landing Page UI added for Amarttrak Website" />
     <MESSAGE value="Content added for Landing Page" />
     <option name="LAST_COMMIT_MESSAGE" value="Content added for Landing Page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1632996581842">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1641699973235">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1632996581842" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1641699973235" />
+    <state x="379" y="101" width="607" height="536" key="find.popup" timestamp="1641700823679">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="101" width="607" height="536" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1641700823679" />
   </component>
   <component name="masterDetails">
     <states>
