@@ -8,8 +8,9 @@ npm install
 
 npm start to run http://localhost:3000/
 
-![SMARTTRAK-Landing](https://user-images.githubusercontent.com/88642733/130347696-5d0456cd-91e1-4768-ae3f-02ea42211baf.png)
 
 
 
 
+
+![Smarttrak Landing](https://user-images.githubusercontent.com/88642733/148669289-6a8000ee-3af8-4c12-90b5-3e5625a9ace7.png)
