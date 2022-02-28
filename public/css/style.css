@@ -6302,16 +6302,16 @@ select.form-control {
   background-position: 50% 50%;
 }
 .big-image.clone-0{
-  background-image: url("../images/index/cr-bg-1.png");
+  background-image: url("../images/index/cr-bg-1.webp");
 }
 .big-image.clone-1{
-  background-image: url("../images/index/cr-bg-2.png");
+  background-image: url("../images/index/cr-bg-2.webp");
 }
 .big-image.clone-2{
-  background-image: url("../images/index/cr-bg-3.png");
+  background-image: url("../images/index/cr-bg-3.webp");
 }
 .big-image.clone-3{
-  background-image: url("../images/index/cr-bg-4.png");
+  background-image: url("../images/index/cr-bg-4.webp");
 }
 
 .overlay {
