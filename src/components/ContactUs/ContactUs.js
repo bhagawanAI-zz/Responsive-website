@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 
 const contactUs = () => {
 	return (
@@ -21,6 +20,7 @@ const contactUs = () => {
                                     <div className="w-100">
                                         <iframe width="100%" height="300" frameBorder="0" scrolling="no"
                                                 marginHeight="0" marginWidth="0"
+                                                title="Smarttrak Map"
                                                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1426%20Glenwater%20Drive,%20Cary,%20NC,%20USA+(Smarttrak%20Solar%20Solutions)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                                             </iframe>
                                     </div>

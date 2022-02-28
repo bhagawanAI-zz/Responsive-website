@@ -13,7 +13,7 @@ const Landing = () => {
                                     <div className="item">
                                         <div className="big-image clone-0">
                                             <div className="overlay">
-                                                <h1>Edge AI Is The Next Wave of AI</h1>
+                                                <h1 className="px-5">Edge AI Is The Next Wave of AI</h1>
                                                 <p className="px-5">Smarttrak Solutions for optimized infrastructure for edge computing.</p>
                                             </div>
                                         </div>
@@ -23,7 +23,7 @@ const Landing = () => {
                                     <div className="item">
                                         <div className="big-image clone-1">
                                             <div className="overlay">
-                                                <h1>End-to-end AI Models</h1>
+                                                <h1 className="px-5">End-to-end AI Models</h1>
                                                 <p className="px-5">Our solutions will
                                                     focus primarily upon optimizing system and network operations as well as
                                                     extracting value from industry data through dramatically improved analytics
@@ -36,7 +36,7 @@ const Landing = () => {
                                     <div className="item">
                                         <div className="big-image clone-2">
                                             <div className="overlay">
-                                                <h1>Proven and Tested AI Models for Predictive Maintenance</h1>
+                                                <h1 className="px-5">Proven and Tested AI Models for Predictive Maintenance</h1>
                                                 <p className="px-5">We can find exact patterns that can help predict and ultimately prevent failures.</p>
                                             </div>
                                         </div>
@@ -46,7 +46,7 @@ const Landing = () => {
                                     <div className="item">
                                         <div className="big-image clone-3">
                                             <div className="overlay">
-                                                <h1>Your Digital Twin Solution with our AI Models</h1>
+                                                <h1 className="px-5">Your Digital Twin Solution with our AI Models</h1>
                                                 <p className="px-5">Grow smarter, grow faster as we need solutions at the right place and at Smarttrak we are empowering all your Digital Twin needs.</p>
                                             </div>
                                         </div>
