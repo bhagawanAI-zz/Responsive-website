@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07fd1a35-38b1-4881-975c-0457918d56be" name="Default Changelist" comment="Content added for Landing Page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/app-store.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner/banner-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner/hero-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/AI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/about-ai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/about-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/digital.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/faq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/offer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/solution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/tnc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/play-store.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonial/testimonial1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutUs/AboutUs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Career/Career.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/ContactUs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FAQ/FAQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Investor/Investor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Landing/Landing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollIntoView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TnC/TnC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="07fd1a35-38b1-4881-975c-0457918d56be" name="Default Changelist" comment="Content added for Landing Page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,15 +39,15 @@
     <property name="vcs.patch.path" value="D:/Download" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Smarttrak Theme\workspace\Responsive-website\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Smarttrak Theme\workspace\Responsive-website" />
       <recent name="D:\Smarttrak Theme\workspace\Responsive-website\public\images" />
       <recent name="D:\Smarttrak Theme\workspace\Responsive-website\public\images\home" />
       <recent name="D:\Smarttrak Theme\workspace\Responsive-website\public\images\banner" />
       <recent name="D:\Smarttrak Theme\workspace\Responsive-website\public\css" />
-      <recent name="D:\Smarttrak Theme\workspace\Responsive-website\public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Smarttrak Theme\workspace\Responsive-website\public" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -146,7 +91,7 @@
       <workItem from="1645951024127" duration="784000" />
       <workItem from="1645959955729" duration="228000" />
       <workItem from="1645983091595" duration="608000" />
-      <workItem from="1646018860718" duration="1590000" />
+      <workItem from="1646018860718" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="SmartTrak UI">
       <created>1628501739959</created>
