@@ -1,75 +1,124 @@
 import React from "react";
-import ScrollToTop from "react-scroll-to-top";
 import {Link} from "react-router-dom";
 
 const Landing = () => {
-	return (
+    return (
         <section>
-            <div className="hero-banner w-100 mb-30px hero-block">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-7">
-                            <div className="hero-banner__img">
-                                <img className="img-fluid" src="images/banner/hero-banner.png" alt=""/>
-                            </div>
-                        </div>
-                        <div className="col-lg-5 pt-5">
-                            <div className="hero-banner__content">
-                                <h1>Artificial Intelligence of Things</h1>
-                                <p>Smarttrak AI is a AIOT company providing solutions to industry verticals, inferencing Deep
-                                    Learning Models on Edge based Internet Of Things Devices.</p>
-                                <Link to='/aboutus' className="button bg">
-                                    Know More
-                                </Link>
+            <div className="testimonial-section p-tb-100 position-relative">
+                <div className="container-fluid p-0">
+                    <div className="banner-carousel default-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                        <div className="owl-stage-outer pt-0">
+                            <div className="owl-stage">
+                                <div className="owl-item">
+                                    <div className="item">
+                                        <div className="big-image clone-0">
+                                            <div className="overlay">
+                                                <h1>Edge AI Is The Next Wave of AI</h1>
+                                                <p className="px-5">Smarttrak Solutions for optimized infrastructure for edge computing.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item">
+                                    <div className="item">
+                                        <div className="big-image clone-1">
+                                            <div className="overlay">
+                                                <h1>End-to-end AI Models</h1>
+                                                <p className="px-5">Our solutions will
+                                                    focus primarily upon optimizing system and network operations as well as
+                                                    extracting value from industry data through dramatically improved analytics
+                                                    and decision-making processes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item">
+                                    <div className="item">
+                                        <div className="big-image clone-2">
+                                            <div className="overlay">
+                                                <h1>Proven and Tested AI Models for Predictive Maintenance</h1>
+                                                <p className="px-5">We can find exact patterns that can help predict and ultimately prevent failures.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item">
+                                    <div className="item">
+                                        <div className="big-image clone-3">
+                                            <div className="overlay">
+                                                <h1>Your Digital Twin Solution with our AI Models</h1>
+                                                <p className="px-5">Grow smarter, grow faster as we need solutions at the right place and at Smarttrak we are empowering all your Digital Twin needs.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="section-margin w-100 feature-block" id="FeatureBlock">
+            <div className="feature-section pb-70">
                 <div className="container">
-                    <div className="section-intro pb-85px text-center">
-                        <h2 className="section-intro__title">AIoT Feature</h2>
-                        <p className="section-intro__subtitle">These solutions will
-                            focus primarily upon optimizing system and network operations as well as
-                            extracting value from industry data through dramatically improved analytics
-                            and decision-making processes.</p>
+                    <div className="section-title section-title-lg">
+                        <h2>Any Sufficiently Advanced <br/> Technology Is Indistinguishable From Magic</h2>
                     </div>
-
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-4">
-                                <div className="card card-feature text-center text-lg-left mb-4 mb-lg-0">
-                <span className="card-feature__icon">
-                  <i className="mdi mdi-puzzle"></i>
-                </span>
-                                    <h3 className="card-feature__title">Decision Making</h3>
-                                    <p className="card-feature__subtitle">The Artificial
-                                        Intelligence of Things will provide the ability to capture streaming data,
-                                        determine valuable attributes, and make decisions in real-time.</p>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-green">
+                                            <i className="mdi mdi-account-tie"></i>
+                                        </div>
+                                        <span>AI Models</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>End-to-end Deep Learning and Machine Learning models for building AI systems.</p>
+                                        <Link to="/ai-details" className="redirect-link">Discover More</Link>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="card card-feature text-center text-lg-left mb-4 mb-lg-0">
-                <span className="card-feature__icon">
-                  <i className="mdi mdi-mouse"></i>
-                </span>
-                                    <h3 className="card-feature__title">Business Solution</h3>
-                                    <p className="card-feature__subtitle">AI enhances the ability for big data analytics and IoT platforms to provide
-                                        value to each of these market segments.</p>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-yellow">
+                                            <i className="mdi mdi-account-key"></i>
+                                        </div>
+                                        <span>Digital Twin</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>A digital twin is a virtual/ digital replica of physical entities which help businesses make model-driven decisions.</p>
+                                        <Link to="/digital-twin" className="redirect-link">Discover More</Link>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="card card-feature text-center text-lg-left mb-4 mb-lg-0">
-                <span className="card-feature__icon">
-                  <i className="mdi mdi-headset"></i>
-                </span>
-                                    <h3 className="card-feature__title">AIoT Analytics</h3>
-                                    <p className="card-feature__subtitle">These solutions will
-                                        focus primarily upon optimizing system and network operations as well as
-                                        extracting value from industry data through dramatically improved analytics
-                                        and decision-making processes.</p>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-blue">
+                                            <i className="mdi mdi-account-network"></i>
+                                        </div>
+                                        <span>Robotics</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>A robot is an autonomous physical machine designed to perform actions automatically with speed and accuracy.</p>
+                                        <Link to="/robotics" className="redirect-link">Discover More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-blue">
+                                            <i className="mdi mdi-account-network"></i>
+                                        </div>
+                                        <span>Edge Computing</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>AI relies heavily on data transmission and computation of complex machine learning algorithms.</p>
+                                        <Link to="/edge-computing" className="redirect-link">Discover More</Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -77,199 +126,84 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="section-margin w-100 offer-block">
+            <div className="about-section bg-off-white pt-100 pb-70">
                 <div className="container">
-                    <div className="section-intro pb-85px text-center">
-                        <h2 className="section-intro__title">Features We Offer</h2>
-                        <p className="section-intro__subtitle">The Artificial Intelligence of Things is transformational for both technologies as
-                            AI adds value to IoT through machine learning and decision making and IoT
-                            adds value to AI through connectivity and data exchange. The AIoT market
-                            constitutes solutions, applications, and services involving AI in IoT Systems
-                            and IoT support of AI Solutions.</p>
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 pb-30">
+                            <div className="about-section-item about-item-image text-center">
+                                <img src="images/index/feature-shape-1.png" alt="shape"/>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 pb-30">
+                            <div className="about-section-item about-item-details">
+                                <div className="section-title section-title-left text-start">
+                                    <small>About Us</small>
+                                    <h2>Smarttrak is a AI Technology Solutions company focused on </h2>
+                                </div>
+                                <div className="about-content">
+                                    <ul>
+                                        <li>Revolutionizing your business with our Advanced AI</li>
+                                        <li>Intelligent and Predictive Assets Monitoring</li>
+                                    </ul>
+                                    <p>We help businesses to lead the charge to digital innovation and tap into the power of the AI,
+                                        by transforming  and creating a competitive advantage that will scale.</p>
+                                    <Link to="/aboutus" className="btn main-btn">About Us</Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
 
+            <div className="service-section pt-100 pb-70">
+                <div className="container">
+                    <div className="section-title section-title-lg">
+                        <small>Solutions</small>
+                        <h2>Redefine the way you do business with Smarttrak Solutions</h2>
+                        <p>Our purpose is to deliver excellence in service and execution</p>
+                    </div>
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="row offer-single-wrapper">
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-square-edit-outline"></i>
-                  </span>
-                                        <h4>Easy To Manage</h4>
-                                        <p>AI improves IoT operations and transforms IoT system
-                                            originated data into actionable insights.</p>
-                                    </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="mdi mdi-robot-industrial"></i>
                                 </div>
-
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-pencil-ruler"></i>
-                  </span>
-                                        <h4>Analytics Tool</h4>
-                                        <p>AIoT will be instrumental
-                                            in solving many existing problems, such as human asset management.</p>
-                                    </div>
+                                <div className="service-card-body">
+                                    <h3>Advanced AI for Manufacturing</h3>
+                                    <p>The most important asset for a manufacturing company is its machinery.</p>
+                                    <Link to="/advanced-ai" className="redirect-link">Discover More</Link>
                                 </div>
                             </div>
-
-                            <div className="row offer-single-wrapper">
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-scissors-cutting"></i>
-                  </span>
-                                        <h4>Professionals Tools</h4>
-                                        <p>Enterprise is continuously strongly with the need to hire and retain
-                                            the best and brightest workers.</p>
-                                    </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="mdi mdi-home-analytics"></i>
                                 </div>
-
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-lightbulb-on-outline"></i>
-                  </span>
-                                        <h4>Ready Content</h4>
-                                        <p>AI Decision as a Service function for Human Asset Management professionals.</p>
-                                    </div>
+                                <div className="service-card-body">
+                                    <h3>Smart Solar Energy Management</h3>
+                                    <p>Save energy for a sustainable world with our Advanced AI-enabled solution.</p>
+                                    <Link to="/smart-solar" className="redirect-link">Discover More</Link>
                                 </div>
                             </div>
-
                         </div>
-                        <div className="col-lg-6">
-                            <div className="offer-single__img">
-                                <img className="img-fluid" src="images/home/offer.png" alt=""/>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="mdi mdi-school-outline"></i>
+                                </div>
+                                <div className="service-card-body">
+                                    <h3>Predictive Maintenance</h3>
+                                    <p>Our deployed models look for patterns in data that indicate failure modes for specific components or generate more accurate predictions of the lifespan for a component given environmental conditions.</p>
+                                    <Link to="/predictive" className="redirect-link">Discover More</Link>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="section-padding--small bg-magnolia w-100 solution-block">
-                <div className="container">
-                    <div className="row align-items-center pt-xl-3 pb-xl-5">
-                        <div className="col-lg-6">
-                            <div className="solution__img text-center text-lg-left mb-4 mb-lg-0">
-                                <img className="img-fluid" src="images/home/solution.png" alt=""/>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="solution__content">
-                                <h2>Simple Solutions for Complex Connections</h2>
-                                <p>Currently, many Artificial Intelligence of Things use cases are very retail
-                                    product oriented, many of which focus on cognitive computing in consumer
-                                    appliances. For example, Sharp refers to AIoT as “People-Oriented IoT =
-                                    AIoT” for “more responsive technology” as part of what they refer to as the
-                                    “Smart Life”.</p>
-                                {/*<a className="button button-light" href="#">Know More</a>*/}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="section-padding--small bg-white w-100 aboutus-block">
-                <div className="container">
-                    <div className="row no-gutters align-items-center">
-                        <div className="col-md-5 mb-5 mb-md-0">
-                            <div className="about__content">
-                                <h2>Leading the Digital Entertainment Revolution</h2>
-                                <p>As IoT networks proliferate throughout every major industry vertical, there will
-                                    be an increasingly large amount of unstructured machine data. The growing
-                                    amount of human-oriented and machine generated data will drive substantial
-                                    opportunities for AI support of unstructured data analytics solutions.</p>
-                                {/*<a className="button button-light" href="#">Know More</a>*/}
-                            </div>
-                        </div>
-                        <div className="col-md-7">
-                            <div className="about__img">
-                                <img className="img-fluid" src="images/home/digital.png" alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/*<div className="py-5 my-3 bg-magnolia w-100 client-block">
-                <div className="container">
-                    <div className="section-intro pb-5 text-center">
-                        <h2 className="section-intro__title">Our Clients</h2>
-                        <p className="section-intro__subtitle">Your Passion is our Satisfaction. Best Service, Right Time, Right People. Definitely, We can Serve you better. Service is Everywhere. Service Truly Different.</p>
-                    </div>
-
-                    <div className="owl-carousel owl-theme testimonial">
-                        <div className="testimonial__item text-center">
-                            <div className="testimonial__img">
-                                <img src="images/testimonial/testimonial1.png" alt=""/>
-                            </div>
-                            <div className="testimonial__content">
-                                <h3>Stephen Mcmilan</h3>
-                                <p>Executive, ACI Group</p>
-                                <p className="testimonial__i">Also made from. Give may saying meat there from heaven it
-                                    lights face had is gathered god earth light for life may itself shall whales made
-                                    they're blessed whales also made from give may saying meat. There from heaven it lights
-                                    face had also made from. Give may saying meat there from heaven</p>
-                            </div>
-                        </div>
-                        <div className="testimonial__item text-center">
-                            <div className="testimonial__img">
-                                <img src="images/testimonial/testimonial1.png" alt=""/>
-                            </div>
-                            <div className="testimonial__content">
-                                <h3>Stephen Mcmilan</h3>
-                                <p>Executive, ACI Group</p>
-                                <p className="testimonial__i">Also made from. Give may saying meat there from heaven it
-                                    lights face had is gathered god earth light for life may itself shall whales made
-                                    they're blessed whales also made from give may saying meat. There from heaven it lights
-                                    face had also made from. Give may saying meat there from heaven</p>
-                            </div>
-                        </div>
-                        <div className="testimonial__item text-center">
-                            <div className="testimonial__img">
-                                <img src="images/testimonial/testimonial1.png" alt=""/>
-                            </div>
-                            <div className="testimonial__content">
-                                <h3>Stephen Mcmilan</h3>
-                                <p>Executive, ACI Group</p>
-                                <p className="testimonial__i">Also made from. Give may saying meat there from heaven it
-                                    lights face had is gathered god earth light for life may itself shall whales made
-                                    they're blessed whales also made from give may saying meat. There from heaven it lights
-                                    face had also made from. Give may saying meat there from heaven</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="clients_logo_area py-5 w-100 carousel-block">
-                <div className="container">
-                    <div className="clients_slider owl-carousel">
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-1.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-2.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-3.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-4.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-5.png" alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </div>*/}
-
-            <div>
-                <ScrollToTop smooth/>
             </div>
         </section>
-	);
+    );
 };
 
 export default Landing;
