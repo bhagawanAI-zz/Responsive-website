@@ -3,6 +3,59 @@
   <component name="ChangeListManager">
     <list default="true" id="07fd1a35-38b1-4881-975c-0457918d56be" name="Default Changelist" comment="Content added for Landing Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/app-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner/banner-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner/hero-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/clients-logo/c-logo-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/AI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/about-ai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/about-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/digital.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/faq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/offer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/solution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home/tnc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/play-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/testimonial/testimonial1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs/AboutUs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Career/Career.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/ContactUs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FAQ/FAQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Investor/Investor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Landing/Landing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollIntoView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TnC/TnC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,44 +68,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>form-contact</find>
-      <find>comment-form</find>
-      <find>comments-area</find>
-      <find>Client Says Me</find>
-      <find>Artificial Intelligence of</find>
-      <find>app.js</find>
-      <find>App.js</find>
-      <find>navbar-brand</find>
-      <find>extends React.Component</find>
-      <find>&lt;Route path</find>
-      <find>react-router-dom</find>
-      <find>BrowserRouter</find>
-      <find>import React from &quot;react&quot;</find>
-      <find>ScrollToTop</find>
-      <find>logo192</find>
-      <find>hero-banner</find>
-      <find>Leading the Digital Entertainment Revolution</find>
-      <find>&lt;br</find>
-      <find>bg.jpg</find>
-      <find>bg</find>
-      <find>section-bg</find>
-      <find>componentDidMount</find>
-      <find>hire@luxurytaxicab.com</find>
-      <find>clients_logo_area section-padding w-100 carousel-block</find>
-      <find>section-padding bg-magnolia w-100 client-block</find>
-      <find>The Site is intended for users who are at least 13 years of age</find>
-      <find>Simple Solutions for Complex Connections</find>
-      <find>AI.pn</find>
-      <find>#contact</find>
-      <find>#faq</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>mdi mdi-check</replace>
-      <replace>mdi mdi-close</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +87,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1629628700221" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smarttrak-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -120,7 +135,18 @@
       <workItem from="1632900762243" duration="550000" />
       <workItem from="1632995293721" duration="1874000" />
       <workItem from="1634616448362" duration="12000" />
-      <workItem from="1641699153578" duration="1528000" />
+      <workItem from="1641699153578" duration="2352000" />
+      <workItem from="1641826905198" duration="1828000" />
+      <workItem from="1641873555574" duration="40000" />
+      <workItem from="1642590107053" duration="532000" />
+      <workItem from="1645155381994" duration="1430000" />
+      <workItem from="1645247123479" duration="830000" />
+      <workItem from="1645265243763" duration="991000" />
+      <workItem from="1645852279934" duration="1892000" />
+      <workItem from="1645951024127" duration="784000" />
+      <workItem from="1645959955729" duration="228000" />
+      <workItem from="1645983091595" duration="608000" />
+      <workItem from="1646018860718" duration="1590000" />
     </task>
     <task id="LOCAL-00001" summary="SmartTrak UI">
       <created>1628501739959</created>
@@ -161,7 +187,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -176,14 +204,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Content added for Landing Page" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="111" key="FileChooserDialogImpl" timestamp="1645157062433">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1645157062433" />
+    <state x="348" y="68" key="NewModule_or_Project.wizard" timestamp="1645157050772">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="348" y="68" key="NewModule_or_Project.wizard/0.0.1366.738@0.0.1366.738" timestamp="1645157050772" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1641699973235">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1641699973235" />
-    <state x="379" y="101" width="607" height="536" key="find.popup" timestamp="1641700823679">
+    <state x="379" y="101" width="607" height="536" key="find.popup" timestamp="1645960001706">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="101" width="607" height="536" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1641700823679" />
+    <state x="379" y="101" width="607" height="536" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1645960001706" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1641827736407">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1641827736407" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1645983095716">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1645983095716" />
   </component>
   <component name="masterDetails">
     <states>

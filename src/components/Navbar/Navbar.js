@@ -3,51 +3,51 @@ import {Link} from "react-router-dom";
 
 const navbar = () => {
     return (
-        <header className="header_area">
-            <div className="main_menu">
-                <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
-                    <div className="container box_1620">
-                        <a href='/' className="navbar-brand logo_h d-flex">
-                            {/*<img src="images/logo.png" alt="" width={50}/>*/}
-                            SMARTTRAK
-                        </a>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="icon-bar"></span>
-                            <span className="icon-bar"></span>
-                            <span className="icon-bar"></span>
-                        </button>
-
-                        <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
-                            <ul className="nav navbar-nav menu_nav justify-content-end">
-                                <li className="nav-item">
-                                    <Link className="nav-link" to='/'>
-                                        Home
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to='/services'>
-                                        Services
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/aboutus">
-                                        About Us
-                                    </Link>
-                                </li>
-                            </ul>
-
-                            {/*<ul className="navbar-right mb-0">
-                                <li className="nav-item">
-                                    <button className="button button-header bg">Sign up</button>
-                                </li>
-                            </ul>*/}
-                        </div>
+        <div className="fixed-top non-fixed">
+            <div className="navbar-area sticky-black bg-white is-sticky">
+                <div className="container-fluid">
+                    <div className="mobile-nav">
+                        <Link to="/" onClick={() => {window.location.href="/"}} className="mobile-brand">
+                            <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
+                        </Link>
                     </div>
-                </nav>
+                </div>
+                <div className="main-nav">
+                    <div className="container-fluid">
+                        <nav className="navbar navbar-expand-md navbar-light">
+                            <Link className="navbar-brand"
+                               to="/" onClick={() => {window.location.href="/"}}>
+                                <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
+                            </Link>
+                            <div className="collapse navbar-collapse mean-menu d-block" id="navbarSupportedContent">
+                                <ul className="navbar-nav ml-auto">
+                                    <li className="nav-item">
+                                        <Link to="/"
+                                              onClick={() => {window.location.href="/"}}
+                                           className="nav-link">Home</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/aboutus" className="nav-link">About Us</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/advanced-ai"
+                                              className="nav-link">Solutions</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/career"
+                                              className="nav-link">Career</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/contact"
+                                           className="nav-link">Contact Us</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
             </div>
-        </header>
+        </div>
     );
 };
 
