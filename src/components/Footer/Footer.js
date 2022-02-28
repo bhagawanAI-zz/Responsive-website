@@ -28,16 +28,13 @@ const Footer = () => {
                                     </p>
                                     <ul className="social-list social-list-btn">
                                         <li>
-                                            <Link to={{pathname: "https://www.facebook.com/SmarttrakSolarSystems/"}} target="_blank"><i className="mdi mdi-facebook"></i></Link>
-                                        </li>
-                                        {/*<li>
-                                            <Link to={{pathname: "https://www.instagram.com"}} target="_blank"><i className="mdi mdi-instagram"></i></Link>
-                                        </li>*/}
-                                        <li>
-                                            <Link to={{pathname: "https://www.youtube.com/results?search_query=smarttrak+solar"}} target="_blank"><i className="mdi mdi-youtube"></i></Link>
+                                            <Link to={{pathname: "https://www.facebook.com/SmarttrakSolarSystems/"}} target="_blank" name="facebook"><i className="mdi mdi-facebook"></i></Link>
                                         </li>
                                         <li>
-                                            <Link to={{pathname: "https://in.linkedin.com/company/smarttrak-solar-systems-private-limited"}} target="_blank"><i className="mdi mdi-linkedin"></i></Link>
+                                            <Link to={{pathname: "https://www.youtube.com/results?search_query=smarttrak+solar"}} target="_blank" name="youtube"><i className="mdi mdi-youtube"></i></Link>
+                                        </li>
+                                        <li>
+                                            <Link to={{pathname: "https://in.linkedin.com/company/smarttrak-solar-systems-private-limited"}} target="_blank" name="linkedin"><i className="mdi mdi-linkedin"></i></Link>
                                         </li>
                                     </ul>
                                 </div>
