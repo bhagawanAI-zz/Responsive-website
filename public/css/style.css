@@ -6314,6 +6314,24 @@ select.form-control {
   background-image: url("../images/index/cr-bg-4.png");
 }
 
+@media screen and (max-width: 420px){
+  .big-image .overlay h1{
+    font-size: 25px;
+  }
+  .big-image .overlay p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 767px){
+  .big-image .overlay h1{
+    font-size: 30px;
+  }
+  .big-image .overlay p{
+    font-size: 25px;
+  }
+}
+
 .overlay {
   position: absolute;
   height: 100%;
