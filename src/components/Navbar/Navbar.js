@@ -8,7 +8,7 @@ const navbar = () => {
                 <div className="container-fluid">
                     <div className="mobile-nav">
                         <Link to="/" onClick={() => {window.location.href="/"}} className="mobile-brand">
-                            <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
+                            <img src="images/index/st-full-logo.png" alt="logo" className="logo logo-image"/>
                         </Link>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ const navbar = () => {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link className="navbar-brand"
                                to="/" onClick={() => {window.location.href="/"}}>
-                                <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
+                                <img src="images/index/st-full-logo.png" alt="logo" className="logo logo-image"/>
                             </Link>
                             <div className="collapse navbar-collapse mean-menu d-block" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
