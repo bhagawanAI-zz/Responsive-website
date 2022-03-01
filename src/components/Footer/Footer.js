@@ -20,7 +20,7 @@ const Footer = () => {
                             <div className="footer-content-item">
                                 <div className="footer-logo">
                                     <Link to="/" onClick={() => {window.location.href="/"}}>
-                                        <img src="images/index/logo.png" alt="logo" className="logo logo-image"/></Link>
+                                        <img src="images/index/st-full-logo.png" alt="logo" className="logo logo-image"/></Link>
                                 </div>
                                 <div className="footer-details">
                                     <p>
