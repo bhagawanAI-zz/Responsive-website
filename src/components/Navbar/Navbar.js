@@ -7,7 +7,7 @@ const navbar = () => {
             <div className="navbar-area sticky-black bg-white is-sticky">
                 <div className="container-fluid">
                     <div className="mobile-nav">
-                        <Link to="/" onClick={() => {window.location.href="/"}} className="mobile-brand d-flex align-items-center justify-content-center">
+                        <Link to="/" onClick={() => {window.location.href="/"}} className="mobile-brand d-flex align-items-center justify-content-start">
                             <img src="images/index/idea.png" alt="logo" className="logo" width="40"/>
                             <img src="images/index/text-logo.png" alt="logo" className="logo logo-image"/>
                         </Link>
@@ -16,7 +16,7 @@ const navbar = () => {
                 <div className="main-nav">
                     <div className="container-fluid">
                         <nav className="navbar navbar-expand-md navbar-light">
-                            <Link className="navbar-brand d-flex align-items-center justify-content-center"
+                            <Link className="navbar-brand d-flex align-items-center justify-content-start"
                                to="/" onClick={() => {window.location.href="/"}}>
                                 <img src="images/index/idea.png" alt="logo" className="logo" width="40"/>
                                 <img src="images/index/text-logo.png" alt="logo" className="logo logo-image"/>
