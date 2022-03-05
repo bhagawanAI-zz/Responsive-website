@@ -1,8 +1,8 @@
 # Smarttrak | AI Responsive Web App
 
-Clone URL https://github.com/manjeet-smarttrak/smarttrak-ai.git
+Clone URL https://github.com/bhagawanAI/Responsive-website.git
 
-type: git clone https://github.com/manjeet-smarttrak/smarttrak-ai.git
+type: git clone https://github.com/bhagawanAI/Responsive-website.git
 
 npm install
 
