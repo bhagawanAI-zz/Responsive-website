@@ -19,8 +19,11 @@ const Footer = () => {
                         <div className="col-sm-12 col-md-6 col-lg-4">
                             <div className="footer-content-item">
                                 <div className="footer-logo">
-                                    <Link to="/" onClick={() => {window.location.href="/"}}>
-                                        <img src="images/index/st-full-logo.png" alt="logo" className="logo logo-image"/></Link>
+                                    <Link className="d-flex align-items-center justify-content-center"
+                                          to="/" onClick={() => {window.location.href="/"}}>
+                                        <img src="images/index/idea.png" alt="logo" className="logo" width="40"/>
+                                        <img src="images/index/text-logo.png" alt="logo" className="logo logo-image"/>
+                                    </Link>
                                 </div>
                                 <div className="footer-details">
                                     <p>
