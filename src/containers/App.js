@@ -5,7 +5,7 @@ import Landing from "../components/Landing/Landing";
 import AboutUs from "../components/AboutUs/AboutUs";
 import ContactUs from "../components/ContactUs/ContactUs";
 import Career from "../components/Career/Career";
-import Investor from "../components/Investor/Investor";
+import Solutions from "../components/Solutions/Solutions";
 import Footer from "../components/Footer/Footer";
 import ArtificialIntelligence from "../components/ArtificialIntelligence/ArtificialIntelligence";
 import DigitalTwin from "../components/DigitalTwin/DigitalTwin";
@@ -31,7 +31,7 @@ const App = () => {
                         <Route path='/aboutus' component={AboutUs} />
                         <Route path='/contact' component={ContactUs} />
                         <Route path='/career' component={Career} />
-                        <Route path='/investor' component={Investor} />
+                        <Route path='/solutions' component={Solutions} />
                         <Route path='/ai-details' component={ArtificialIntelligence} />
                         <Route path='/digital-twin' component={DigitalTwin} />
                         <Route path='/edge-computing' component={EdgeComputing} />
