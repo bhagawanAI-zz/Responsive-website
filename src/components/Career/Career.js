@@ -29,39 +29,39 @@ const career = () => {
                                             <div className="col col-3"><b>Number of H1B workers</b></div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Data Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Database Architects</div>
-                                            <div className="col col-3" data-label="Amount">5</div>
+                                            <div className="col col-1" data-label="Job">Data Engineer</div>
+                                            <div className="col col-2" data-label="Classification">Database Architects</div>
+                                            <div className="col col-3" data-label="No. of H1B:">5</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Software Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">4</div>
+                                            <div className="col col-1" data-label="Job">Software Engineer</div>
+                                            <div className="col col-2" data-label="Classification">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="No. of H1B">4</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Software Developer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">3</div>
+                                            <div className="col col-1" data-label="Job">Software Developer</div>
+                                            <div className="col col-2" data-label="Classification">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="No. of H1B">3</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">DevOps Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">2</div>
+                                            <div className="col col-1" data-label="Job">DevOps Engineer</div>
+                                            <div className="col col-2" data-label="Classification">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="No. of H1B">2</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Cloud Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">2</div>
+                                            <div className="col col-1" data-label="Job">Cloud Engineer</div>
+                                            <div className="col col-2" data-label="Classification">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="No. of H1B">2</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Computer Analyst</div>
-                                            <div className="col col-2" data-label="Customer Name">Computer System Analyst</div>
-                                            <div className="col col-3" data-label="Amount">1</div>
+                                            <div className="col col-1" data-label="Job">Computer Analyst</div>
+                                            <div className="col col-2" data-label="Classification">Computer System Analyst</div>
+                                            <div className="col col-3" data-label="No. of H1B">1</div>
                                         </li>
                                         <li className="table-row">
                                             <div className="col col-1" data-label="Job Id">Application Analyst</div>
                                             <div className="col col-2" data-label="Customer Name">Computer System Analyst</div>
-                                            <div className="col col-3" data-label="Amount">1</div>
+                                            <div className="col col-3" data-label="No. of H1B">1</div>
                                         </li>
                                         <li className="table-row">
                                             <div className="col col-1" data-label="Job Id">PCB Engineer</div>
