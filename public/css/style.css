@@ -6368,6 +6368,7 @@ select.form-control {
   border-radius: 3px;
   padding: 5px 30px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 5px;
 }
