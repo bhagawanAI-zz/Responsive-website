@@ -101,7 +101,7 @@ const career = () => {
                         <div className="col-lg-12 pb-30">
                             <div className="about-section-item about-item-details">
                                 <div className="about-content sign-table">
-                                    <table className="w-100">
+                                    <table className="table-responsive">
                                         <tbody>
                                             <tr>
                                                 <td>

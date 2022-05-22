@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07fd1a35-38b1-4881-975c-0457918d56be" name="Default Changelist" comment="Content added for Landing Page">
+    <list default="true" id="07fd1a35-38b1-4881-975c-0457918d56be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Career/Career.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Career/Career.js" afterDir="false" />
@@ -111,7 +111,7 @@
       <workItem from="1646826961053" duration="248000" />
       <workItem from="1646903046272" duration="784000" />
       <workItem from="1646910980234" duration="81000" />
-      <workItem from="1653199716191" duration="2181000" />
+      <workItem from="1653199716191" duration="2621000" />
     </task>
     <task id="LOCAL-00001" summary="SmartTrak UI">
       <created>1628501739959</created>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628567586017</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UI added for career page">
+      <created>1653202010266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653202010267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,9 +173,14 @@
     <MESSAGE value="SmartTrak UI" />
     <MESSAGE value="Landing Page UI added for Amarttrak Website" />
     <MESSAGE value="Content added for Landing Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content added for Landing Page" />
+    <MESSAGE value="UI added for career page" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI added for career page" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="0" key="CommitChangelistDialog2" timestamp="1653202009551">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="275" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1653202009551" />
     <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1653200832641">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -178,9 +190,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="348" y="68" key="NewModule_or_Project.wizard/0.0.1366.738@0.0.1366.738" timestamp="1645157050772" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1646047113784">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1653202018304">
+      <screen x="0" y="0" width="1366" height="720" />
     </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.720@0.0.1366.720" timestamp="1653202018304" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1646047113784" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646047107028">
       <screen x="0" y="0" width="1366" height="738" />
