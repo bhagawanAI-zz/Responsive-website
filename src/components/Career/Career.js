@@ -8,7 +8,7 @@ const career = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-12 pb-30">
                             <div className="about-section-item about-item-details">
-                                <div className="section-title section-title-left text-start">
+                                <div className="section-title section-title-left text-start mt-5">
                                     <h2>NOTICE</h2>
                                 </div>
                                 <div className="about-content">
