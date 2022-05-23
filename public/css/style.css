@@ -2002,7 +2002,7 @@ select.form-control {
 
 .mobile-brand {
   position: relative;
-  z-index: 1000;
+  /*z-index: 1000;*/
 }
 
 .mean-container {
@@ -6364,56 +6364,85 @@ select.form-control {
 
 
 /*Table CSS*/
-.responsive-table li {
-  border-radius: 3px;
-  padding: 5px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5px;
+.career-table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
-.responsive-table .table-header {
-  background-color: #95A5A6;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+.career-table * {
+  position: relative;
 }
-.responsive-table .table-row {
-  background-color: #ffffff;
-  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+.career-table td, .career-table th {
+  padding-left: 8px;
 }
-.responsive-table .col-1 {
-  flex-basis: 10%;
-  padding: 0;
+.career-table thead tr {
+  height: 60px;
+  background: #7684ea;
+  font-size: 16px;
 }
-.responsive-table .col-2 {
-  flex-basis: 40%;
+.career-table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #E3F1D5;
 }
-.responsive-table .col-3 {
-  flex-basis: 25%;
+.career-table tbody tr:last-child {
+  border: 0;
 }
-.responsive-table .col-4 {
-  flex-basis: 25%;
+.career-table td, table th {
+  text-align: left;
 }
-@media all and (max-width: 767px) {
-  .responsive-table .table-header {
-    display: none;
-  }
-  .responsive-table li {
+.career-table td.l, .career-table th.l {
+  text-align: right;
+}
+.career-table td.c, .career-table th.c {
+  text-align: center;
+}
+.career-table td.r, .career-table th.r {
+  text-align: center;
+}
+
+@media screen and (max-width: 35.5em) {
+  .career-table {
     display: block;
   }
-  .responsive-table .col {
-    flex-basis: 100%;
+  .career-table > *, .career-table tr, .career-table td, .career-table th {
+    display: block;
   }
-  .responsive-table .col {
-    display: flex;
-    padding: 10px 0;
+  .career-table thead {
+    display: none;
   }
-  .responsive-table .col:before {
-    color: #6C7A89;
-    padding-right: 10px;
-    content: attr(data-label);
-    flex-basis: 50%;
-    text-align: right;
+  .career-table tbody tr {
+    height: auto;
+    padding: 8px 0;
+  }
+  .career-table tbody tr td {
+    padding-left: 45%;
+    margin-bottom: 20px;
+  }
+  .career-table tbody tr td:last-child {
+    margin-bottom: 20px;
+    margin-top: 3rem;
+  }
+  .career-table tbody tr td:before {
+    position: absolute;
+    font-weight: 700;
+    width: 40%;
+    left: 10px;
+    top: 0;
+    line-height: 1.4;
+  }
+  .career-table tbody tr td:nth-child(1):before {
+    content: "Job Title";
+  }
+  .career-table tbody tr td:nth-child(2):before {
+    content: "Wage survey-based classification";
+  }
+  .career-table tbody tr td:nth-child(3):before {
+    content: "Number of H1B workers";
   }
 }

@@ -22,53 +22,57 @@ const career = () => {
                         <div className="col-lg-12 pb-30">
                             <div className="about-section-item about-item-details">
                                 <div className="container p-0">
-                                    <ul className="responsive-table p-0">
-                                        <li className="table-header">
-                                            <div className="col col-1"><b>Job Title</b></div>
-                                            <div className="col col-2"><b>Wage survey-based classification</b></div>
-                                            <div className="col col-3"><b>Number of H1B workers</b></div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">Data Engineer</div>
-                                            <div className="col col-2" data-label="Classification:">Database Architects</div>
-                                            <div className="col col-3" data-label="Number:">5</div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">Software Engineer</div>
-                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Number:">4</div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">Software Developer</div>
-                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Number:">3</div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">DevOps Engineer</div>
-                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Number:">2</div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">Cloud Engineer</div>
-                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Number:">2</div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">Computer Analyst</div>
-                                            <div className="col col-2" data-label="Classification:">Computer System Analyst</div>
-                                            <div className="col col-3" data-label="Number:">1</div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">Application Analyst</div>
-                                            <div className="col col-2" data-label="Classification:">Computer System Analyst</div>
-                                            <div className="col col-3" data-label="Number:">1</div>
-                                        </li>
-                                        <li className="table-row">
-                                            <div className="col col-1" data-label="Job:">PCB Engineer</div>
-                                            <div className="col col-2" data-label="Classification:">Electrical Engineer</div>
-                                            <div className="col col-3" data-label="Number:">1</div>
-                                        </li>
-                                    </ul>
+                                    <table className="career-table shadow-sm">
+                                        <thead>
+                                        <tr>
+                                            <th><b>Job Title</b></th>
+                                            <th><b>Wage survey-based classification</b></th>
+                                            <th><b>Number of H1B workers</b></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Data Engineer</td>
+                                            <td>Database Architects</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Software Engineer</td>
+                                            <td>Software Developers, Applications</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Software Developer</td>
+                                            <td>Software Developers, Applications</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>DevOps Engineer</td>
+                                            <td>Software Developers, Applications</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cloud Engineer</td>
+                                            <td>Software Developers, Applications</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Computer Analyst</td>
+                                            <td>Computer System Analyst</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Application Analyst</td>
+                                            <td>Computer System Analyst</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PCB Engineer</td>
+                                            <td>Electrical Engineer</td>
+                                            <td>1</td>
+                                        </tr>
+                                        </tbody>
+                                        </table>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +124,6 @@ const career = () => {
                                                     Holly Springs,NC,USA
                                                 </td>
                                             </tr>
-
                                         </tbody>
                                     </table>
                                 </div>
