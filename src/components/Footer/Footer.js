@@ -89,7 +89,8 @@ const Footer = () => {
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Address:</h4>
-                                            <p>321 Trautz Ln, Holly Springs,NC 27540 USA</p>
+                                            <p>300 S Main Street, Suite 212
+                                Holly Springs, NC 27540</p>
                                         </div>
                                     </div>
                                 </div>

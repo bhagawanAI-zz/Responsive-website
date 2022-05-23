@@ -12,7 +12,8 @@ const contactUs = () => {
                                     SmartTrak Solar Systems
                                 </h5>
                                 <h5>Address: <small className="text-muted">
-                                    321 Trautz Ln, Holly Springs,NC 27540 USA</small>
+                                300 S Main Street, Suite 212
+                                Holly Springs, NC 27540</small>
                                 </h5>
                                 <h5>Email: <small className="text-muted">info@smarttrak.co</small></h5>
                                 <h5>Contact: <small className="text-muted">(+1) 510-945-8169</small></h5>

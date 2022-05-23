@@ -29,44 +29,44 @@ const career = () => {
                                             <div className="col col-3"><b>Number of H1B workers</b></div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Data Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Database Architects</div>
-                                            <div className="col col-3" data-label="Amount">5</div>
+                                            <div className="col col-1" data-label="Job:">Data Engineer</div>
+                                            <div className="col col-2" data-label="Classification:">Database Architects</div>
+                                            <div className="col col-3" data-label="Number:">5</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Software Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">4</div>
+                                            <div className="col col-1" data-label="Job:">Software Engineer</div>
+                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="Number:">4</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Software Developer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">3</div>
+                                            <div className="col col-1" data-label="Job:">Software Developer</div>
+                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="Number:">3</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">DevOps Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">2</div>
+                                            <div className="col col-1" data-label="Job:">DevOps Engineer</div>
+                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="Number:">2</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Cloud Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Software Developers, Applications</div>
-                                            <div className="col col-3" data-label="Amount">2</div>
+                                            <div className="col col-1" data-label="Job:">Cloud Engineer</div>
+                                            <div className="col col-2" data-label="Classification:">Software Developers, Applications</div>
+                                            <div className="col col-3" data-label="Number:">2</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Computer Analyst</div>
-                                            <div className="col col-2" data-label="Customer Name">Computer System Analyst</div>
-                                            <div className="col col-3" data-label="Amount">1</div>
+                                            <div className="col col-1" data-label="Job:">Computer Analyst</div>
+                                            <div className="col col-2" data-label="Classification:">Computer System Analyst</div>
+                                            <div className="col col-3" data-label="Number:">1</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">Application Analyst</div>
-                                            <div className="col col-2" data-label="Customer Name">Computer System Analyst</div>
-                                            <div className="col col-3" data-label="Amount">1</div>
+                                            <div className="col col-1" data-label="Job:">Application Analyst</div>
+                                            <div className="col col-2" data-label="Classification:">Computer System Analyst</div>
+                                            <div className="col col-3" data-label="Number:">1</div>
                                         </li>
                                         <li className="table-row">
-                                            <div className="col col-1" data-label="Job Id">PCB Engineer</div>
-                                            <div className="col col-2" data-label="Customer Name">Electrical Engineer</div>
-                                            <div className="col col-3" data-label="Amount">1</div>
+                                            <div className="col col-1" data-label="Job:">PCB Engineer</div>
+                                            <div className="col col-2" data-label="Classification:">Electrical Engineer</div>
+                                            <div className="col col-3" data-label="Number:">1</div>
                                         </li>
                                     </ul>
                                 </div>
@@ -114,21 +114,13 @@ const career = () => {
 
                                             <tr>
                                                 <td>
-                                                    1. _______________________________________
+                                                    05/19/2022
                                                 </td>
                                                 <td>
-                                                    1. _______________________________________
+                                                    Holly Springs,NC,USA
                                                 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td>
-                                                    2. _______________________________________
-                                                </td>
-                                                <td>
-                                                    2. _______________________________________
-                                                </td>
-                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
