@@ -43,7 +43,7 @@ const SignupModal = (props) =>  {
         alert(`OTP has been sent on ${data.email}`);
         props.onSignupSuccess(resData);
       }
-      // console.log("In signup success",data)
+      // console.log("In signup success ash",data)
     }else{
       setError((prevState) => ({
         ...prevState,
