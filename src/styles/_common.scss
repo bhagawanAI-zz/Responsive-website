@@ -1,0 +1,38 @@
+.row-aligned {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column-aligned {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-form-field {
+    margin : 10px 0px 0px 10px;
+}
+
+.custom-form-label {
+    font-weight: 600;
+    color : #333333;
+    font-size: 16px;
+}
+
+.custom-form-input {
+    border-radius: 5px;
+    border-color: #a6a6a6;
+    width : 95%;
+    height: 40px;
+}
+
+.error-text-message {
+    font-weight: 600;
+    color :red;
+    font-size: 12px;
+}
+
+.error-form-input {
+    border-color: red;
+}

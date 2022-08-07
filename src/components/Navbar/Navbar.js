@@ -1,8 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import LoginModal from "../LoginSignup/LoginModal";
+import SignupModal from "../LoginSignup/SignupModal";
+import VerifyEmailModal from "../LoginSignup/VerifyEmailModal";
+import ForgetPasswordModal from "../LoginSignup/ForgetPasswordModal";
 
-const navbar = () => {
+const Navbar = () => {
+    const [showLogin, setShowLogin]= useState(false);
+    const [showSignup, setShowSignup] = useState(false);
+    const [showVerifyEmail, setShowVerifyEmail] = useState(false);
+    const [showForgetModal, setShowForgetModal] = useState(false);
+    const [signupData,setSignupData] = useState({});
+
+    const handleLoginClick = () => {
+        setShowSignup(false);
+        setShowLogin(true)
+    }
+
+    const handleRegisterClick = () => {
+        setShowLogin(false);
+        setShowSignup(true);
+    }
+
+    const handleForgetClick = () => {
+        setShowLogin(false);
+        setShowForgetModal(true)
+    }
+
+    const handleSignupSuccess = (data) => {
+        setShowSignup(false);
+        setSignupData(data);
+        setShowVerifyEmail(true);
+    }
+
     return (
+        <>
         <div className="fixed-top non-fixed">
             <div className="navbar-area sticky-black bg-white is-sticky">
                 <div className="container-fluid">
@@ -43,6 +76,9 @@ const navbar = () => {
                                         <Link to="/contact"
                                            className="nav-link">Contact Us</Link>
                                     </li>
+                                    <Button style={{height : 39,width : 118}} 
+                                        variant="primary"
+                                        onClick={() => setShowLogin(true)}>Login</Button>
                                 </ul>
                             </div>
                         </nav>
@@ -50,7 +86,17 @@ const navbar = () => {
                 </div>
             </div>
         </div>
+        {showLogin && <LoginModal onRegisterClick={handleRegisterClick} 
+                     onForgetClick={handleForgetClick}
+                     onClose={() => setShowLogin(false)} />}
+        {showSignup && <SignupModal onLoginClick={handleLoginClick}
+            onClose={() => setShowSignup(false)}
+            onSignupSuccess={handleSignupSuccess} />}
+        {showVerifyEmail && <VerifyEmailModal onClose={() => setShowVerifyEmail(false)} 
+            signupData={signupData} />}
+        {showForgetModal && <ForgetPasswordModal onClose={() => setShowForgetModal(false)} />}
+        </>
     );
 };
 
-export default navbar;
+export default Navbar;

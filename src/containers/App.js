@@ -15,7 +15,7 @@ import AdvancedAi from "../components/AdvancedAi/AdvancedAi";
 import SmartSolarEnergy from "../components/SmartSolarEnergy/SmartSolarEnergy";
 import PredictiveMaintenance from "../components/PredictiveMaintenance/PredictiveMaintenance";
 
-import "./App.css";
+import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Switch from "react-bootstrap/cjs/Switch";
 import ScrollIntoView from "../components/ScrollIntoView";
