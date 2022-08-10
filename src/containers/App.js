@@ -14,6 +14,8 @@ import Robotics from "../components/Robotics/Robotics";
 import AdvancedAi from "../components/AdvancedAi/AdvancedAi";
 import SmartSolarEnergy from "../components/SmartSolarEnergy/SmartSolarEnergy";
 import PredictiveMaintenance from "../components/PredictiveMaintenance/PredictiveMaintenance";
+import Dashboard from "./Dashboard/Dashboard";
+import ProtectedRoute from "../utils/ProtectedRoute";
 
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -39,6 +41,7 @@ const App = () => {
                         <Route path='/advanced-ai' component={AdvancedAi} />
                         <Route path='/smart-solar' component={SmartSolarEnergy} />
                         <Route path='/predictive' component={PredictiveMaintenance} />
+                        <ProtectedRoute path="/dashboard" component={Dashboard} />
                         <Footer/>
                     </Switch>
                 </ScrollIntoView>

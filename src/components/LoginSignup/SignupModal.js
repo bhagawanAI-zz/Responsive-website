@@ -38,7 +38,7 @@ const SignupModal = (props) =>  {
         password : data.password
       }
       const res = await loginService.signup(reqData);
-      if(res.status===200){
+      if(res.status===201){
         const resData = res.data;
         alert(`OTP has been sent on ${data.email}`);
         props.onSignupSuccess(resData);

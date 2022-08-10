@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import Button from 'react-bootstrap/Button';
+import { useHistory } from "react-router-dom";
 import LoginModal from "../LoginSignup/LoginModal";
 import SignupModal from "../LoginSignup/SignupModal";
 import VerifyEmailModal from "../LoginSignup/VerifyEmailModal";
 import ForgetPasswordModal from "../LoginSignup/ForgetPasswordModal";
 
 const Navbar = () => {
+    const history = useHistory();
     const [showLogin, setShowLogin]= useState(false);
     const [showSignup, setShowSignup] = useState(false);
     const [showVerifyEmail, setShowVerifyEmail] = useState(false);
@@ -32,6 +34,12 @@ const Navbar = () => {
         setShowSignup(false);
         setSignupData(data);
         setShowVerifyEmail(true);
+    }
+
+    const handleLoginSuccess = () => {
+        setShowLogin(false);
+        setShowVerifyEmail(false);
+        history.push("/dashboard");
     }
 
     return (
@@ -88,12 +96,14 @@ const Navbar = () => {
         </div>
         {showLogin && <LoginModal onRegisterClick={handleRegisterClick} 
                      onForgetClick={handleForgetClick}
-                     onClose={() => setShowLogin(false)} />}
+                     onClose={() => setShowLogin(false)} 
+                     onLoginSuccess={handleLoginSuccess} />}
         {showSignup && <SignupModal onLoginClick={handleLoginClick}
             onClose={() => setShowSignup(false)}
             onSignupSuccess={handleSignupSuccess} />}
         {showVerifyEmail && <VerifyEmailModal onClose={() => setShowVerifyEmail(false)} 
-            signupData={signupData} />}
+            signupData={signupData}
+            onVerifyEmailSuccess={handleLoginSuccess} />}
         {showForgetModal && <ForgetPasswordModal onClose={() => setShowForgetModal(false)} />}
         </>
     );
