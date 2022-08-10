@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal'
-import { useHistory } from 'react-router-dom';
 import { LoginService } from '../../services/LoginService';
 import "../../styles/login-signup.scss";
 
@@ -9,7 +8,6 @@ const loginService = new LoginService();
 
 const VerifyEmailModal = (props) =>  {
   const {signupData} = props;
-  const history = useHistory();
   const [data,setData] = useState({
     otp : "",
   });
