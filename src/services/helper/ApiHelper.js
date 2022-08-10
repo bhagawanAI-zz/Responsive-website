@@ -31,6 +31,7 @@ export class ApiHelper {
     const response = await axios.post(uri, data, {
       headers: {
         Authorization: `Bearer ${authToken}`,
+        'content-type' : "application/json"
       },
     });
     return response;

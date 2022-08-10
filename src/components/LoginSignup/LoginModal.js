@@ -46,6 +46,9 @@ const LoginModal = (props) => {
       if(res.status===200){
         let resData = res.data;
         console.log("login res data", resData);
+        localStorage.setItem("authToken", resData.token);
+        alert("Login successful");
+        props.onLoginSuccess();
       }
       // console.log("In login success", data)
     } else {

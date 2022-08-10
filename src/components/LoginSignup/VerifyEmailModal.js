@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal'
+import { useHistory } from 'react-router-dom';
 import { LoginService } from '../../services/LoginService';
 import "../../styles/login-signup.scss";
 
@@ -8,6 +9,7 @@ const loginService = new LoginService();
 
 const VerifyEmailModal = (props) =>  {
   const {signupData} = props;
+  const history = useHistory();
   const [data,setData] = useState({
     otp : "",
   });
@@ -38,7 +40,7 @@ const VerifyEmailModal = (props) =>  {
     });
     if(!errorFlag){
         const reqData = {
-            id : signupData.id,
+            id : signupData._id,
             email :signupData.email,
             otp : data.otp
         }
@@ -47,6 +49,8 @@ const VerifyEmailModal = (props) =>  {
             const resData = res.data;
             console.log("In verify email response",resData)
             alert("Email has been verified successfully");
+            localStorage.setItem("authToken",resData.token);
+            props.onVerifyEmailSuccess();
         }
     //   console.log("In verify otp",data)
     }else{
