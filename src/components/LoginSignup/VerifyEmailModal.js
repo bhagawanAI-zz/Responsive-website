@@ -16,6 +16,9 @@ const VerifyEmailModal = (props) =>  {
   });
 
   const handleChange = (val, key) => {
+    setError((prevState) => ({
+      [key] : false
+    }))
     setData((prevState) => ({
       ...prevState,
       [key] : val
