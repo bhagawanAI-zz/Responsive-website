@@ -38,6 +38,10 @@ const Navbar = () => {
 
     const handleLoginSuccess = () => {
         setShowLogin(false);
+        history.push("/dashboard");
+    }
+
+    const handleVerifyEmailnSuccess = () => {
         setShowVerifyEmail(false);
         history.push("/dashboard");
     }
@@ -103,7 +107,7 @@ const Navbar = () => {
             onSignupSuccess={handleSignupSuccess} />}
         {showVerifyEmail && <VerifyEmailModal onClose={() => setShowVerifyEmail(false)} 
             signupData={signupData}
-            onVerifyEmailSuccess={handleLoginSuccess} />}
+            onVerifyEmailSuccess={handleVerifyEmailnSuccess} />}
         {showForgetModal && <ForgetPasswordModal onClose={() => setShowForgetModal(false)} />}
         </>
     );

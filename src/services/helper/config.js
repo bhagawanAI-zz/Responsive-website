@@ -1,1 +1,1 @@
-export const BASE_URL="http://3.231.213.63:8000"
+export const BASE_URL="https://app.smarttrakportal.in"
