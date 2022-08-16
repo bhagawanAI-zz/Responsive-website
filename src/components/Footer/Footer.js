@@ -56,6 +56,9 @@ const Footer = () => {
                                         <Link to="/career">Career</Link>
                                     </li>
                                     <li>
+                                        <Link to="/products">Products</Link>
+                                    </li>
+                                    <li>
                                         <Link to="/solutions">Solutions</Link>
                                     </li>
                                     <li>
@@ -110,7 +113,7 @@ const Footer = () => {
 
             <div className="scroll-top scrolltopactive" id="scrolltop">
                 <div className="scroll-top-inner">
-                    <i className="mdi mdi-arrow-up"></i>
+                    <i className="mdi mdi-arrow-up"/>
                 </div>
             </div>
         </footer>

@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useRef, useState} from "react";
 import {Link} from "react-router-dom";
+import Modal from 'react-bootstrap/Modal';
 
 const Landing = () => {
+    const [show, setShow] = useState(true);
+    const handleClose = () => setShow(false);
+
     return (
         <section>
             <div className="testimonial-section p-tb-100 position-relative">
@@ -15,6 +19,8 @@ const Landing = () => {
                                             <div className="overlay">
                                                 <h1 className="px-5">Edge AI Is The Next Wave of AI</h1>
                                                 <p className="px-5">Smarttrak Solutions for optimized infrastructure for edge computing.</p>
+
+                                                <Link className="btn btn-lg main-btn mt-3" to="/signup">SIGN UP</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -28,6 +34,8 @@ const Landing = () => {
                                                     focus primarily upon optimizing system and network operations as well as
                                                     extracting value from industry data through dramatically improved analytics
                                                     and decision-making processes.</p>
+
+                                                <Link className="btn btn-lg main-btn mt-3" to="/signup">SIGN UP</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -38,6 +46,8 @@ const Landing = () => {
                                             <div className="overlay">
                                                 <h1 className="px-5">Proven and Tested AI Models for Predictive Maintenance</h1>
                                                 <p className="px-5">We can find exact patterns that can help predict and ultimately prevent failures.</p>
+
+                                                <Link className="btn btn-lg main-btn mt-3" to="/signup">SIGN UP</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -48,6 +58,8 @@ const Landing = () => {
                                             <div className="overlay">
                                                 <h1 className="px-5">Your Digital Twin Solution with our AI Models</h1>
                                                 <p className="px-5">Grow smarter, grow faster as we need solutions at the right place and at Smarttrak we are empowering all your Digital Twin needs.</p>
+
+                                                <Link className="btn btn-lg main-btn mt-3" to="/signup">SIGN UP</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -202,6 +214,24 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
+
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>What you want to do?</Modal.Header>
+                <Modal.Body>
+                    <div className="col-12 px-0 pb-3">
+                        <Link to="/face-detection" className="brand-link f-18"><img src="images/index/face.png" alt="" style={{width: "23px"}} className="mr-2"/>Face Detection</Link>
+                    </div>
+                    <div className="col-12 px-0">
+                        <Link to="/object-detection" className="brand-link f-18"><img src="images/index/object.png" alt="" style={{width: "23px"}} className="mr-2"/>Object Detection</Link>
+                    </div>
+
+                    <div className="col-12 px-0 pt-3">
+                        <p className="mb-0">
+                            Select from the above what you wants to do!
+                        </p>
+                    </div>
+                </Modal.Body>
+            </Modal>
         </section>
     );
 };
